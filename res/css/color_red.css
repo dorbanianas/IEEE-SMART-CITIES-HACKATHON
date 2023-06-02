@@ -1,0 +1,167 @@
+/*
+* Heading style colors
+*/
+
+:root {
+    --main-color: rgb(64, 157, 233);
+}
+
+.title-underline-base-color {
+    border-color: var(--main-color);
+}
+
+.title-underline-thick-base-color {
+    border-color: var(--main-color);
+}
+
+.title-sideline-base-color:before {
+    background-color: var(--main-color);
+}
+
+.title-strikethrough-base-color:before {
+    background-color: var(--main-color);
+}
+
+
+/*
+* Text color
+*/
+
+.text-base-color {
+    color: var(--main-color) !important;
+}
+
+
+/*
+* Text color (on hover)
+*/
+
+.text-hover-base-color:hover,
+.text-hover-base-color:focus {
+    color: var(--main-color) !important;
+}
+
+
+/*
+* Background color
+*/
+
+.bg-base-color {
+    background-color: var(--main-color) !important;
+}
+
+
+/*
+* Background color (on hover)
+*/
+
+.bg-hover-base-color:hover {
+    background-color: var(--main-color) !important;
+}
+
+
+/*
+* Border color
+*/
+
+.border-base-color {
+    border-color: var(--main-color) !important;
+}
+
+
+/*
+* Button colors
+*/
+
+.btn.btn-base-color {
+    background-color: var(--main-color);
+}
+
+.btn.btn-base-color.btn-hover-transparent:hover {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+.btn.btn-outline-base-color {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+.btn.btn-outline-base-color:hover,
+.btn.btn-outline-base-color:focus {
+    background-color: var(--main-color);
+}
+
+.btn.btn-outline-base-color.btn-hover-transparent:hover,
+.btn.btn-outline-base-color.btn-hover-transparent:focus {
+    color: var(--main-color);
+}
+
+
+/*
+* Preloader color
+*/
+
+.pace .pace-progress {
+    background-color: var(--main-color);
+}
+
+
+/*
+* Nav tabs (Section - Schedule)
+*/
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    background-color: var(--main-color) !important;
+}
+
+
+/*
+* Nav stacked (Section - FAQ)
+*/
+
+.nav.nav-pills.nav-stacked>li.active>a,
+.nav.nav-pills.nav-stacked>li.active>a:hover,
+.nav.nav-pills.nav-stacked>li.active>a:focus {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
+
+
+/*
+* Accordions (Section - FAQ)
+*/
+
+.panel-group .panel.active .panel-heading {
+    background-color: var(--main-color);
+}
+
+
+/*
+* Countdown
+*/
+
+.countdown .clock-item {
+    background-color: var(--main-color);
+}
+
+
+/*
+* Pricing (Section - Ticket)
+*/
+
+.pricing ul>li.check-mark:before {
+    background-color: var(--main-color);
+}
+
+
+/*
+* Timeline (Section - Schedule)
+*/
+
+.timeline-item.highlight:before {
+    background-color: var(--main-color);
+    border: var(--main-color);
+}
